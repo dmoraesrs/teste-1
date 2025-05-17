@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: azure-sample-app
+  description: Exemplo de app com Azure DevOps integrado
+  annotations:
+    dev.azure.com/project: SampleProject
+    dev.azure.com/repository: azure-sample-app
+spec:
+  type: service
+  lifecycle: production
+  owner: user:default/diego
